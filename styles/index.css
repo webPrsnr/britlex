@@ -7,6 +7,10 @@
   --work-sans-m: WorkSansM; /* 500 */
   --work-sans-sb: WorkSansSB; /* 600 */
 
+  /* POPPINS */
+
+  --poppins-sb: PoppinsSB; /* 600 */
+
   /* COLORS */
   --color-black: #000000;
   --color-black-lighter: #263238;
