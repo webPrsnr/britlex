@@ -1,0 +1,14 @@
+@font-face {
+  font-family: WorkSansM;
+  src: url("../fonts/poppins/WorkSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: WorkSansR;
+  src: url("../fonts/poppins/WorkSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: WorkSansSB;
+  src: url("../fonts/poppins/WorkSans-SemiBold.ttf");
+}

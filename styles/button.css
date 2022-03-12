@@ -1,0 +1,6 @@
+.button-black {
+  background-color: var(--color-black-lighter);
+  font-family: var(--work-sans-m);
+  border: none;
+  color: var(--color-white);
+}

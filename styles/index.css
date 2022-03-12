@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  /* FONTS */
+  --work-sans-r: WorkSansR; /* 400 */
+  --work-sans-m: WorkSansM; /* 500 */
+  --work-sans-sb: WorkSansSB; /* 600 */
+
+  /* COLORS */
+  --color-black: #000000;
+  --color-black-lighter: #263238;
+  --color-gray: #8f95a5;
+  --color-gray-lighter: #f5f5f5;
+  --color-white: #ffffff;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-white);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0%;
+}
+
+.container {
+  margin-right: 131px;
+  margin-left: 129px;
+}
