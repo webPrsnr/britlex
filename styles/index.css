@@ -30,7 +30,32 @@ p {
   margin: 0%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   margin-right: 131px;
   margin-left: 129px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin-right: 39px;
+    margin-left: 39px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
 }
