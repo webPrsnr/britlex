@@ -12,3 +12,8 @@
   font-family: WorkSansSB;
   src: url("../fonts/poppins/WorkSans-SemiBold.ttf");
 }
+
+@font-face {
+  font-family: PoppinsSB;
+  src: url("../fonts/worksans/Poppins-SemiBold.ttf");
+}
