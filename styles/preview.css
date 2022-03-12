@@ -38,3 +38,150 @@
   font-size: 36px;
   line-height: 54px;
 }
+
+@media (max-width: 992px) {
+  .preview {
+    padding-top: 68px;
+  }
+  .preview__content {
+    margin-top: 81px;
+  }
+  .preview__text {
+    font-size: 48px;
+    line-height: 64px;
+    max-width: 290px;
+    max-height: 192px;
+  }
+  .preview__descr {
+    margin-top: 27px;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 432px;
+  }
+
+  .preview__button {
+    margin-top: 33px;
+    width: 292px;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .preview__img {
+    max-width: 460px;
+    max-height: 460px;
+  }
+}
+
+@media (max-width: 767px) {
+  .preview {
+    padding-top: 40px;
+  }
+  .preview__content {
+    margin-top: 28px;
+  }
+  .preview__text {
+    font-size: 36px;
+    line-height: 45px;
+    max-width: 217px;
+    max-height: 135px;
+  }
+
+  .preview__descr {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 25px;
+  }
+  .preview__button {
+    margin-top: 32px;
+    width: 236px;
+    height: 65px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .preview__img {
+    max-width: 352px;
+    max-height: 352px;
+  }
+}
+
+@media (max-width: 575px) {
+  .preview {
+    padding-top: 11px;
+  }
+  .preview__inner {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .preview__img {
+    max-width: 424px;
+    max-height: 424px;
+  }
+  .preview__content {
+    margin-top: 17px;
+  }
+  .preview__text {
+    font-size: 30px;
+    line-height: 45px;
+    max-width: 491px;
+    max-height: 45px;
+    text-align: center;
+  }
+  .preview__descr {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 26px;
+    width: 100%;
+    text-align: center;
+  }
+  .preview__button {
+    display: block;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 305px;
+    min-height: 75px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 320px) {
+  .preview {
+    padding-top: 36px;
+  }
+  .preview__inner {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .preview__img {
+    max-width: 299px;
+    max-height: 299px;
+  }
+  .preview__content {
+    margin-top: 16px;
+  }
+  .preview__text {
+    font-size: 24px;
+    line-height: 36px;
+    max-height: 220px;
+    text-align: center;
+  }
+  .preview__descr {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .preview__button {
+    margin-top: 35px;
+    max-width: 289px;
+    max-height: 60px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
