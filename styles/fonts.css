@@ -17,3 +17,8 @@
   font-family: PoppinsSB;
   src: url("../fonts/worksans/Poppins-SemiBold.ttf");
 }
+
+@font-face {
+  font-family: PoppinsR;
+  src: url(../fonts/worksans/Poppins-Regular.ttf);
+}
