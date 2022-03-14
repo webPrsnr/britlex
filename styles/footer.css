@@ -1,0 +1,30 @@
+.footer {
+  padding-top: 133px;
+}
+
+.footer__line {
+  color: #c4c4c4;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__nav-list {
+  display: flex;
+  column-gap: 20px;
+  color: var(--color-gray);
+}
+
+.footer__nav-link:first-child {
+  list-style-type: none;
+}
+
+.footer__nav-link > a {
+  color: var(--color-gray);
+  font-family: var(--poppins-r);
+  font-size: 24px;
+  line-height: 36px;
+}
